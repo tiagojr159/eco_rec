@@ -1005,7 +1005,7 @@ require_once __DIR__ . '/../header.php';
 
     try {
       // Fazer requisição para a API
-      const response = await fetch('chat.php', {
+      const response = await fetch('https://ki6.com.br/ecorec/public_html/mapa/chat.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
